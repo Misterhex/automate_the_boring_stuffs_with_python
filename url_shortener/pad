@@ -1,0 +1,8 @@
+curl --no-proxy '*' -X POST \
+  http://127.0.0.1:5000/_generate_short_url \
+  -H 'Content-Type: application/json' \
+  -H 'Postman-Token: d46de295-53f6-43e9-9c2c-ec08dded46d7' \
+  -H 'cache-control: no-cache' \
+  -d '{
+	"url": "https://www.facebook.com"
+}'
